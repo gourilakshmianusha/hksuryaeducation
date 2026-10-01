@@ -1,0 +1,68 @@
+<svg viewBox="0 0 540 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="capGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#0B3C96" />
+      <stop offset="50%" stopColor="#0066FF" />
+      <stop offset="100%" stopColor="#00C4FF" />
+    </linearGradient>
+    <linearGradient id="hLeftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#061B48" />
+      <stop offset="55%" stopColor="#084EBA" />
+      <stop offset="100%" stopColor="#00B8FF" />
+    </linearGradient>
+    <linearGradient id="hRightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#0052CC" />
+      <stop offset="60%" stopColor="#0099FF" />
+      <stop offset="100%" stopColor="#00D2FF" />
+    </linearGradient>
+    <linearGradient id="swooshGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#FF3D00" />
+      <stop offset="35%" stopColor="#FF7A00" />
+      <stop offset="70%" stopColor="#FFA000" />
+      <stop offset="100%" stopColor="#FFD000" />
+    </linearGradient>
+    <linearGradient id="hkSuryaTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#083896" />
+      <stop offset="28%" stopColor="#0D53C7" />
+      <stop offset="42%" stopColor="#1E6BDE" />
+      <stop offset="52%" stopColor="#FF7A00" />
+      <stop offset="75%" stopColor="#FF5500" />
+      <stop offset="100%" stopColor="#E63900" />
+    </linearGradient>
+    <filter id="starGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <g id="Emblem">
+    <path d="M74 15 L144 38 L74 61 L10 39 Z" fill="url(#capGrad)" stroke="#00E5FF" strokeWidth="1.2" />
+    <path d="M38 48 L38 64 C38 78 110 78 110 64 L110 48 Z" fill="#06225E" />
+    <path d="M23 42 Q16 53 17 80" stroke="#0A4CBF" strokeWidth="3.2" strokeLinecap="round" fill="none" />
+    <circle cx="17" cy="82" r="4.2" fill="#063282" />
+    <path d="M14 85 L20 85 L19 99 L15 99 Z" fill="#0A4CBF" />
+    <ellipse cx="74" cy="38" rx="4.5" ry="2.5" fill="#FFC72C" />
+    <path d="M34 72 C34 68 37 65 41 65 L64 65 C68 65 71 68 71 72 L71 148 C71 162 55 171 42 167 C36 165 34 159 34 154 Z" fill="url(#hLeftGrad)" />
+    <path d="M76 96 C86 83 99 76 114 78 C124 79 128 85 128 96 L128 154 C128 160 124 164 118 164 L102 164 C97 164 94 160 94 154 L94 119 C94 110 86 106 78 110 Z" fill="url(#hRightGrad)" />
+    <path d="M13 138 C10 153 21 160 31 151 C45 137 64 111 79 104 C99 94 118 81 138 45 C124 70 101 87 80 94 C60 102 36 121 23 132 C17 137 14 141 13 138 Z" fill="url(#swooshGrad)" />
+    <path d="M21 142 C32 127 54 107 80 98 C102 91 121 76 138 45 C128 64 110 81 86 91 C65 98 41 117 26 134 Z" fill="#FFF59D" opacity="0.85" />
+    <g filter="url(#starGlow)">
+      <path d="M138 45 Q142 41 146 31 Q150 41 154 45 Q150 49 146 59 Q142 49 138 45 Z" fill="#FF9E0D" />
+      <path d="M142 45 Q144 43 146 38 Q148 43 150 45 Q148 47 146 52 Q144 47 142 45 Z" fill="#FFFFFF" />
+    </g>
+  </g>
+
+  <g id="Typography" transform="translate(162, 0)">
+    <text x="0" y="96" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="78" letter-spacing="-1.5" fill="url(#hkSuryaTextGrad)">HKSURYA</text>
+    <text x="6" y="128" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="28" letter-spacing="8" fill="#FFFFFF">LEARNING</text>
+    <g transform="translate(6, 156)">
+      <text font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="12.5" letter-spacing="4" fill="#94A3B8">LEARN</text>
+      <circle cx="70" cy="-4" r="3" fill="#FF7A00" />
+      <text x="84" y="0" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="12.5" letter-spacing="4" fill="#94A3B8">SKILL</text>
+      <circle cx="150" cy="-4" r="3" fill="#FF7A00" />
+      <text x="164" y="0" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="12.5" letter-spacing="4" fill="#94A3B8">GROW</text>
+      <circle cx="230" cy="-4" r="3" fill="#FF7A00" />
+      <text x="244" y="0" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="12.5" letter-spacing="4" fill="#94A3B8">SUCCEED</text>
+    </g>
+  </g>
+</svg>

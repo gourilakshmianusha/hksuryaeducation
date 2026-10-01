@@ -1,0 +1,6 @@
+{
+  "name": "HKSURYA LEARNING",
+  "description": "Modern 3D interactive education platform for career-ready skills in software engineering, cloud computing, AI, and data science. Learn Today. Build Tomorrow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

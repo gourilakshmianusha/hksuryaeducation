@@ -1,0 +1,780 @@
+{
+  "users": [
+    {
+      "id": "user-admin-01",
+      "email": "admin@hksuryalearning.com",
+      "passwordHash": "$2b$10$DoukegQRuYRx6Sq7mqLd.uOT4g68bszo/C1zPG4qLnyzLOr4U.h/K",
+      "name": "Administrator",
+      "role": "admin",
+      "avatar": "",
+      "bio": "Chief Academic Director & Lead Administrator at HKSURYA Learning",
+      "status": "active",
+      "createdAt": "2026-10-01T11:05:50.431Z"
+    },
+    {
+      "id": "user-student-01",
+      "email": "student@hksuryalearning.com",
+      "passwordHash": "$2b$10$DoukegQRuYRx6Sq7mqLd.ubHo/vu6hK64WaBLyApY337EjXdr9smG",
+      "name": "Alex Chen",
+      "role": "student",
+      "avatar": "",
+      "bio": "Software engineer transitioning into AI and Distributed Systems",
+      "status": "active",
+      "createdAt": "2026-10-01T11:05:50.432Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-fullstack",
+      "name": "Full Stack",
+      "slug": "full-stack",
+      "description": "Modern TypeScript, React 19, Node.js, and Cloud backends",
+      "coursesCount": 2
+    },
+    {
+      "id": "cat-aiml",
+      "name": "AI & ML",
+      "slug": "ai-ml",
+      "description": "Generative AI, Large Language Models, PyTorch, and RAG pipelines",
+      "coursesCount": 1
+    },
+    {
+      "id": "cat-cloud",
+      "name": "Cloud & DevOps",
+      "slug": "cloud-devops",
+      "description": "Kubernetes, Terraform IaC, AWS/GCP architecture and SRE",
+      "coursesCount": 1
+    },
+    {
+      "id": "cat-cyber",
+      "name": "Cybersecurity",
+      "slug": "cybersecurity",
+      "description": "Offensive ethical hacking, SIEM, and SOC operations",
+      "coursesCount": 1
+    },
+    {
+      "id": "cat-data",
+      "name": "Data Science",
+      "slug": "data-science",
+      "description": "Apache Spark, Kafka real-time streaming, and Snowflake lakehouses",
+      "coursesCount": 1
+    }
+  ],
+  "courses": [
+    {
+      "id": "course-fullstack-01",
+      "title": "Enterprise Full Stack Web Development (Next.js & TypeScript)",
+      "slug": "enterprise-fullstack-web-dev",
+      "categoryId": "cat-fullstack",
+      "category": "Full Stack",
+      "level": "Intermediate",
+      "duration": "16 Weeks",
+      "price": 499,
+      "originalPrice": 899,
+      "trainerId": "trainer-surya",
+      "trainerName": "Dr. Surya K.",
+      "overview": "Master production-grade modern web development from high-performance React 19 architecture to distributed microservices, Tailwind CSS, PostgreSQL, and scalable Docker deployments.",
+      "highlights": [
+        "Build 5 production-ready enterprise applications",
+        "Real-world CI/CD pipeline and cloud architecture",
+        "1-on-1 weekly code reviews and architecture teardowns",
+        "Guaranteed interview referrals upon graduation"
+      ],
+      "skillsAcquired": [
+        "React 19",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Docker",
+        "AWS"
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Docker",
+        "Tailwind CSS",
+        "Redis"
+      ],
+      "syllabus": [
+        {
+          "module": "Module 1: Modern TypeScript & React 19 Architecture",
+          "duration": "3 Weeks",
+          "lessons": [
+            "TypeScript Type Systems & Generics",
+            "React 19 Server Components & Actions",
+            "State Orchestration & Performance Profiling"
+          ]
+        },
+        {
+          "module": "Module 2: Enterprise Backend & REST/GraphQL API Design",
+          "duration": "4 Weeks",
+          "lessons": [
+            "Node.js & Express Microservice Architecture",
+            "PostgreSQL & Drizzle ORM Schema Modeling",
+            "Authentication & OAuth2 Security Patterns"
+          ]
+        },
+        {
+          "module": "Module 3: Cloud Infrastructure & DevOps",
+          "duration": "4 Weeks",
+          "lessons": [
+            "Docker Containerization & Multi-stage Builds",
+            "Kubernetes Cluster Orchestration",
+            "Automated CI/CD with GitHub Actions"
+          ]
+        },
+        {
+          "module": "Module 4: Capstone Engineering & Production Launch",
+          "duration": "5 Weeks",
+          "lessons": [
+            "High-throughput Distributed Systems Design",
+            "Load Testing & Monitoring with Grafana",
+            "Final Capstone Project Defense"
+          ]
+        }
+      ],
+      "certificateIncluded": true,
+      "nextCohortDate": "Starts October 15, 2026",
+      "featured": true,
+      "published": true,
+      "enrolledCount": 8420,
+      "rating": 4.95,
+      "reviewsCount": 1420,
+      "createdAt": "2026-10-01T11:05:50.432Z"
+    },
+    {
+      "id": "course-ai-01",
+      "title": "Applied Generative AI & Large Language Models Engineering",
+      "slug": "applied-generative-ai-llms",
+      "categoryId": "cat-aiml",
+      "category": "AI & ML",
+      "level": "Advanced",
+      "duration": "14 Weeks",
+      "price": 649,
+      "originalPrice": 1099,
+      "trainerId": "trainer-aditi",
+      "trainerName": "Aditi Sharma",
+      "overview": "Design, fine-tune, and deploy state-of-the-art LLM architectures, RAG pipelines, autonomous multi-agent systems, and multimodal reasoning systems in production.",
+      "highlights": [
+        "Advanced RAG with hybrid dense-sparse vector search",
+        "Fine-tuning open weights models using LoRA / QLoRA",
+        "Multi-agent orchestration with LangGraph and AutoGen",
+        "Model safety, evaluation benchmarks, and guardrails"
+      ],
+      "skillsAcquired": [
+        "PyTorch",
+        "Hugging Face",
+        "Vector DBs",
+        "RAG Architecture",
+        "Model Fine-tuning",
+        "Prompt Engineering"
+      ],
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "LangChain",
+        "ChromaDB",
+        "Transformers",
+        "FastAPI"
+      ],
+      "syllabus": [
+        {
+          "module": "Module 1: Transformer Foundations & Attention Mechanics",
+          "duration": "3 Weeks",
+          "lessons": [
+            "Self-Attention & Multi-Head Attention Mathematics",
+            "Tokenization, Embeddings & Vector Spaces",
+            "Modern Architecture Comparison (Llama, Gemini, Mistral)"
+          ]
+        },
+        {
+          "module": "Module 2: Advanced Retrieval-Augmented Generation (RAG)",
+          "duration": "4 Weeks",
+          "lessons": [
+            "Chunking Strategies & Context Enrichment",
+            "Vector Databases & Hybrid BM25/Cosine Search",
+            "Reranking & HyDE Query Transformations"
+          ]
+        }
+      ],
+      "certificateIncluded": true,
+      "nextCohortDate": "Starts October 22, 2026",
+      "featured": true,
+      "published": true,
+      "enrolledCount": 4211,
+      "rating": 4.98,
+      "reviewsCount": 980,
+      "createdAt": "2026-10-01T11:05:50.432Z"
+    },
+    {
+      "id": "course-cloud-01",
+      "title": "Cloud Solutions Architect & Kubernetes DevOps Masterclass",
+      "slug": "cloud-solutions-architect-kubernetes",
+      "categoryId": "cat-cloud",
+      "category": "Cloud & DevOps",
+      "level": "Intermediate",
+      "duration": "12 Weeks",
+      "price": 449,
+      "originalPrice": 799,
+      "trainerId": "trainer-rohan",
+      "trainerName": "Rohan Mehra",
+      "overview": "Master multi-cloud design, Terraform Infrastructure as Code (IaC), zero-downtime Kubernetes clustering, Prometheus monitoring, and disaster recovery.",
+      "highlights": [
+        "Terraform multi-environment IaC from scratch",
+        "Production Kubernetes cluster administration & Helm",
+        "Zero-trust network architecture and IAM governance",
+        "AWS & GCP Solutions Architect exam readiness"
+      ],
+      "skillsAcquired": [
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "GCP",
+        "Docker",
+        "CI/CD",
+        "Prometheus"
+      ],
+      "technologies": [
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "Helm",
+        "ArgoCD",
+        "Grafana",
+        "Linux"
+      ],
+      "syllabus": [
+        {
+          "module": "Module 1: Multi-Cloud Network Architecture",
+          "duration": "3 Weeks",
+          "lessons": [
+            "VPC Peering, Transit Gateways & Subnetting",
+            "IAM Roles, Policies & Least Privilege Access"
+          ]
+        },
+        {
+          "module": "Module 2: Infrastructure as Code with Terraform",
+          "duration": "3 Weeks",
+          "lessons": [
+            "Declarative Configuration & State Locking",
+            "Reusable Terraform Modules & Workspaces"
+          ]
+        }
+      ],
+      "certificateIncluded": true,
+      "nextCohortDate": "Starts November 01, 2026",
+      "featured": false,
+      "published": true,
+      "enrolledCount": 6150,
+      "rating": 4.91,
+      "reviewsCount": 1100,
+      "createdAt": "2026-10-01T11:05:50.432Z"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson-fs-101",
+      "courseId": "course-fullstack-01",
+      "moduleTitle": "Module 1: Modern TypeScript & React 19 Architecture",
+      "title": "TypeScript Type Systems & Generics",
+      "duration": "45 mins",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "content": "In this lesson we dissect advanced TypeScript types: Conditional Types, Template Literal Types, Utility Generics, and Covariance/Contravariance in production APIs.",
+      "orderIndex": 1,
+      "resources": [
+        {
+          "name": "Type Cheatsheet PDF",
+          "url": "#"
+        },
+        {
+          "name": "Starter Repo GitHub",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "lesson-fs-102",
+      "courseId": "course-fullstack-01",
+      "moduleTitle": "Module 1: Modern TypeScript & React 19 Architecture",
+      "title": "React 19 Server Components & Actions",
+      "duration": "55 mins",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "content": "Explore how React 19 revolutionizes form states, server-side data streaming, asset preloading, and eliminates client bundle bloat.",
+      "orderIndex": 2,
+      "resources": [
+        {
+          "name": "React 19 Action Templates",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "lesson-fs-103",
+      "courseId": "course-fullstack-01",
+      "moduleTitle": "Module 1: Modern TypeScript & React 19 Architecture",
+      "title": "State Orchestration & Performance Profiling",
+      "duration": "50 mins",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "content": "Learn how to detect re-renders, use React DevTools Profiler, and structure scalable atomic state stores.",
+      "orderIndex": 3,
+      "resources": [
+        {
+          "name": "Performance Checklist",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "lesson-fs-201",
+      "courseId": "course-fullstack-01",
+      "moduleTitle": "Module 2: Enterprise Backend & REST/GraphQL API Design",
+      "title": "Node.js & Express Microservice Architecture",
+      "duration": "60 mins",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "content": "Architect clean Express routers, async middleware error handlers, rate-limiting, and distributed tracing.",
+      "orderIndex": 4,
+      "resources": [
+        {
+          "name": "Express Boilerplate",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "lesson-ai-101",
+      "courseId": "course-ai-01",
+      "moduleTitle": "Module 1: Transformer Foundations",
+      "title": "Self-Attention & Multi-Head Attention Mathematics",
+      "duration": "65 mins",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "content": "Deep mathematical derivation of scaled dot-product attention QK^T / sqrt(d_k) and multi-head projection tensors.",
+      "orderIndex": 1,
+      "resources": [
+        {
+          "name": "PyTorch Attention Notebook",
+          "url": "#"
+        }
+      ]
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "enroll-01",
+      "studentId": "user-student-01",
+      "studentName": "Alex Chen",
+      "studentEmail": "student@hksuryalearning.com",
+      "courseId": "course-fullstack-01",
+      "courseTitle": "Enterprise Full Stack Web Development (Next.js & TypeScript)",
+      "enrolledAt": "2026-09-17T11:05:50.432Z",
+      "status": "active",
+      "progressPercentage": 66,
+      "lastAccessedAt": "2026-10-01T11:05:50.432Z"
+    },
+    {
+      "id": "enroll-1790852790966-1p8b",
+      "studentId": "user-student-01",
+      "studentName": "Alex Chen",
+      "studentEmail": "student@hksuryalearning.com",
+      "courseId": "course-ai-01",
+      "courseTitle": "Applied Generative AI & Large Language Models Engineering",
+      "enrolledAt": "2026-10-01T11:06:30.966Z",
+      "status": "active",
+      "progressPercentage": 0,
+      "lastAccessedAt": "2026-10-01T11:06:30.966Z"
+    }
+  ],
+  "progress": [
+    {
+      "id": "prog-01",
+      "studentId": "user-student-01",
+      "courseId": "course-fullstack-01",
+      "lessonId": "lesson-fs-101",
+      "completed": true,
+      "completedAt": "2026-09-24T11:05:50.432Z"
+    },
+    {
+      "id": "prog-02",
+      "studentId": "user-student-01",
+      "courseId": "course-fullstack-01",
+      "lessonId": "lesson-fs-102",
+      "completed": true,
+      "completedAt": "2026-09-29T11:05:50.432Z"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "assign-01",
+      "courseId": "course-fullstack-01",
+      "courseTitle": "Enterprise Full Stack Web Development (Next.js & TypeScript)",
+      "title": "Milestone 1: Resilient Type-Safe Form Action System",
+      "description": "Implement a complete React 19 Server Action form with Zod schema validation, optimistic UI updates, and error boundary fallback.",
+      "dueDate": "2026-10-20",
+      "maxScore": 100
+    },
+    {
+      "id": "assign-02",
+      "courseId": "course-fullstack-01",
+      "courseTitle": "Enterprise Full Stack Web Development (Next.js & TypeScript)",
+      "title": "Milestone 2: Distributed Redis Session Cache & Express Middleware",
+      "description": "Build an express authentication middleware utilizing sliding window rate limiting and JWT revocation in Redis.",
+      "dueDate": "2026-11-05",
+      "maxScore": 100
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-01",
+      "assignmentId": "assign-01",
+      "assignmentTitle": "Milestone 1: Resilient Type-Safe Form Action System",
+      "studentId": "user-student-01",
+      "studentName": "Alex Chen",
+      "submissionText": "https://github.com/alexchen/hksurya-milestone1-actions - Deployed live at https://actions-demo.vercel.app with full test coverage.",
+      "submittedAt": "2026-09-27T11:05:50.432Z",
+      "grade": 96,
+      "feedback": "Outstanding architecture Alex! Clean separation of concerns and robust error boundary handling.",
+      "status": "graded"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz-01",
+      "courseId": "course-fullstack-01",
+      "courseTitle": "Enterprise Full Stack Web Development (Next.js & TypeScript)",
+      "title": "React 19 & TypeScript Architectural Proficiency Check",
+      "passingScore": 80,
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the primary benefit of React 19 Server Components over traditional client-rendered components?",
+          "options": [
+            "They remove heavy JavaScript dependencies from the client bundle and render on the server",
+            "They replace CSS stylesheets entirely",
+            "They force all database queries to run in browser memory",
+            "They only run inside React Native apps"
+          ],
+          "correctIndex": 0,
+          "explanation": "React Server Components execute strictly on the server and stream serialized UI to the client without sending their component dependencies to the browser bundle."
+        },
+        {
+          "id": "q2",
+          "question": "In TypeScript, what does the keyof operator produce when applied to an interface?",
+          "options": [
+            "A runtime array of object keys",
+            "A union type of string or numeric literal keys of the given type",
+            "A new class constructor",
+            "A boolean check for property existence"
+          ],
+          "correctIndex": 1,
+          "explanation": "keyof T yields a union of all known public property names of type T at compile time."
+        },
+        {
+          "id": "q3",
+          "question": "Which HTTP status code is most appropriate when a client request lacks valid authentication credentials?",
+          "options": [
+            "400 Bad Request",
+            "401 Unauthorized",
+            "403 Forbidden",
+            "404 Not Found"
+          ],
+          "correctIndex": 1,
+          "explanation": "401 Unauthorized signifies that the request requires user authentication."
+        }
+      ]
+    }
+  ],
+  "quizAttempts": [
+    {
+      "id": "attempt-01",
+      "quizId": "quiz-01",
+      "quizTitle": "React 19 & TypeScript Architectural Proficiency Check",
+      "studentId": "user-student-01",
+      "score": 100,
+      "passed": true,
+      "answers": [
+        0,
+        1,
+        1
+      ],
+      "attemptedAt": "2026-09-26T11:05:50.432Z"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert-01",
+      "certificateCode": "HKS-2026-FS-9482",
+      "studentId": "user-student-01",
+      "studentName": "Alex Chen",
+      "courseId": "course-fullstack-01",
+      "courseTitle": "Enterprise Full Stack Web Development (Next.js & TypeScript)",
+      "issueDate": "2026-09-15",
+      "grade": "Distinction (98%)",
+      "verified": true
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-101",
+      "studentId": "user-student-01",
+      "studentName": "Alex Chen",
+      "studentEmail": "student@hksuryalearning.com",
+      "courseId": "course-fullstack-01",
+      "courseTitle": "Enterprise Full Stack Web Development (Next.js & TypeScript)",
+      "amount": 499,
+      "currency": "USD",
+      "status": "succeeded",
+      "paymentMethod": "Credit Card (Stripe ····4242)",
+      "transactionRef": "tx_stripe_99248271",
+      "createdAt": "2026-09-17T11:05:50.432Z"
+    },
+    {
+      "id": "pay-1790852790966-mdk0",
+      "studentId": "user-student-01",
+      "studentName": "Alex Chen",
+      "studentEmail": "student@hksuryalearning.com",
+      "courseId": "course-ai-01",
+      "courseTitle": "Applied Generative AI & Large Language Models Engineering",
+      "amount": 649,
+      "currency": "USD",
+      "status": "succeeded",
+      "paymentMethod": "Direct Student Access",
+      "transactionRef": "tx_1790852790966",
+      "createdAt": "2026-10-01T11:06:30.966Z"
+    }
+  ],
+  "trainers": [
+    {
+      "id": "trainer-surya",
+      "name": "Dr. Surya K.",
+      "email": "surya@hksuryalearning.com",
+      "role": "Principal Engineer & Founder",
+      "company": "Ex-Google / HKSURYA Lead",
+      "experience": "16+ Years Experience",
+      "bio": "Pioneer in distributed systems and modern web architecture. Trained over 24,000 engineers globally.",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "specialties": [
+        "Distributed Systems",
+        "React 19 & Next.js",
+        "System Architecture",
+        "Performance"
+      ],
+      "rating": 4.96,
+      "studentsTaught": 24500
+    },
+    {
+      "id": "trainer-aditi",
+      "name": "Aditi Sharma",
+      "email": "aditi@hksuryalearning.com",
+      "role": "Staff AI Research Engineer",
+      "company": "Ex-DeepMind / AI Fellow",
+      "experience": "11+ Years Experience",
+      "bio": "Specialist in generative models, parameter-efficient fine-tuning, and agentic workflows.",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80",
+      "specialties": [
+        "Large Language Models",
+        "PyTorch",
+        "Autonomous Agents",
+        "RAG Optimization"
+      ],
+      "rating": 4.98,
+      "studentsTaught": 18200
+    },
+    {
+      "id": "trainer-rohan",
+      "name": "Rohan Mehra",
+      "email": "rohan@hksuryalearning.com",
+      "role": "Principal Cloud Architect",
+      "company": "AWS APN Ambassador",
+      "experience": "13+ Years Experience",
+      "bio": "Architected cloud backbones handling 100M+ daily transactions. Expert in Kubernetes and Terraform.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "specialties": [
+        "Kubernetes",
+        "Multi-Cloud Architecture",
+        "Terraform",
+        "Site Reliability"
+      ],
+      "rating": 4.92,
+      "studentsTaught": 19800
+    },
+    {
+      "id": "trainer-elena",
+      "name": "Elena Rostova",
+      "email": "elena@hksuryalearning.com",
+      "role": "Lead Security Consultant",
+      "company": "Ex-FireEye / DefCon Speaker",
+      "experience": "12+ Years Experience",
+      "bio": "Seasoned ethical hacker, red team operator, and blue team consultant for Fortune 500 banks.",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
+      "specialties": [
+        "Red Team Pentesting",
+        "Incident Response",
+        "Active Directory Defense",
+        "Threat Hunting"
+      ],
+      "rating": 4.94,
+      "studentsTaught": 14600
+    }
+  ],
+  "learningPaths": [
+    {
+      "id": "path-fullstack",
+      "title": "Full Stack Engineering Track",
+      "slug": "full-stack-track",
+      "duration": "6 Months (24 Weeks)",
+      "targetRole": "Senior Full Stack Engineer",
+      "avgSalary": "$145,000 / year",
+      "description": "From modern frontend foundations to high-throughput cloud backends and DevOps deployment.",
+      "color": "#00D2FF",
+      "published": true,
+      "steps": [
+        {
+          "step": 1,
+          "title": "TypeScript & React Architecture",
+          "desc": "Master deep component systems, closures, state machines, and hooks.",
+          "duration": "6 Weeks"
+        },
+        {
+          "step": 2,
+          "title": "Backend APIs & Database Design",
+          "desc": "Build scalable microservices with Node.js, Express, and PostgreSQL.",
+          "duration": "6 Weeks"
+        },
+        {
+          "step": 3,
+          "title": "Cloud Infrastructure & CI/CD",
+          "desc": "Deploy with Docker, Kubernetes, and automated test pipelines.",
+          "duration": "6 Weeks"
+        },
+        {
+          "step": 4,
+          "title": "Capstone & System Design Defense",
+          "desc": "Architect a 100k-concurrent-user real-world distributed web app.",
+          "duration": "6 Weeks"
+        }
+      ]
+    },
+    {
+      "id": "path-ai-ml",
+      "title": "Artificial Intelligence & LLM Track",
+      "slug": "ai-llm-track",
+      "duration": "7 Months (28 Weeks)",
+      "targetRole": "Staff AI / Machine Learning Engineer",
+      "avgSalary": "$168,000 / year",
+      "description": "Transform into an industry-ready AI engineer capable of training, fine-tuning, and deploying intelligent agent systems.",
+      "color": "#FF7A00",
+      "published": true,
+      "steps": [
+        {
+          "step": 1,
+          "title": "Deep Learning & PyTorch Core",
+          "desc": "Neural network math, backpropagation, and loss landscape optimization.",
+          "duration": "7 Weeks"
+        },
+        {
+          "step": 2,
+          "title": "Transformer & Attention Systems",
+          "desc": "Dissect Llama, Gemini, and Mistral architectures line by line.",
+          "duration": "7 Weeks"
+        },
+        {
+          "step": 3,
+          "title": "RAG & Vector Knowledge Bases",
+          "desc": "Hybrid retrieval, semantic embeddings, and context reranking engines.",
+          "duration": "7 Weeks"
+        },
+        {
+          "step": 4,
+          "title": "Autonomous Multi-Agent Deployments",
+          "desc": "Tool calling, memory retention, evaluation frameworks, and guardrails.",
+          "duration": "7 Weeks"
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-01",
+      "name": "David Vance",
+      "role": "Senior Staff Engineer",
+      "company": "Google Cloud",
+      "text": "The distributed systems and Kubernetes lab work gave our engineers direct production skills. Hands down the highest quality curriculum in modern engineering.",
+      "rating": 5,
+      "published": true
+    },
+    {
+      "id": "test-02",
+      "name": "Sarah Lin",
+      "role": "AI Research Lead",
+      "company": "Stripe",
+      "text": "Moving beyond simple prompting into mathematical attention mechanisms and autonomous agent loops made all the difference in my career velocity.",
+      "rating": 5,
+      "published": true
+    }
+  ],
+  "blog": [
+    {
+      "id": "blog-01",
+      "title": "The AI Engineering Paradigm Shift: Beyond Simple Prompting in 2026",
+      "slug": "ai-engineering-paradigm-shift-2026",
+      "category": "AI Trends",
+      "readTime": "6 min read",
+      "date": "Sep 24, 2026",
+      "author": "Dr. Surya K.",
+      "authorRole": "Founder, HKSURYA Learning",
+      "excerpt": "Why software engineering teams are shifting from prompt hacking to deterministic agent architectures, evaluation harnesses, and synthetic training data.",
+      "content": "Modern tech companies no longer seek engineers who merely know how to call an LLM API. The industry demand has matured into structural AI engineering: creating verifiable deterministic systems, robust vector databases, self-correcting agent chains, and parameter-efficient adapters. At HKSURYA Learning, our curriculum focuses on first-principles understanding so you can build robust systems that survive production traffic.",
+      "published": true
+    },
+    {
+      "id": "blog-02",
+      "title": "Architecting High-Throughput Applications with React 19 & Server Components",
+      "slug": "react-19-server-components-architecture",
+      "category": "Full Stack",
+      "readTime": "8 min read",
+      "date": "Sep 18, 2026",
+      "author": "Maya Chen",
+      "authorRole": "Creative Director & 3D Engineer",
+      "excerpt": "A practical breakdown of how React 19 eliminates client-side waterfall bottlenecks and transforms frontend architectures.",
+      "content": "React 19 brings unified Server Actions, simplified form state handling, and seamless asset preloading. When combined with modern 3D graphics in WebGL, web applications can now deliver desktop-grade performance directly inside modern browsers. Here is how we structure our enterprise projects at HKSURYA Learning.",
+      "published": true
+    }
+  ],
+  "contactMessages": [
+    {
+      "id": "msg-01",
+      "name": "Michael Vance",
+      "email": "mvance@acmecloud.com",
+      "topic": "Enterprise Team Training",
+      "message": "Looking to upskill 25 cloud engineers on our squad to Kubernetes and Terraform. Can we schedule a syllabus discussion?",
+      "receivedAt": "2026-09-29T11:05:50.432Z",
+      "status": "unread"
+    }
+  ],
+  "newsletter": [
+    {
+      "id": "sub-01",
+      "email": "techlead@startup.io",
+      "subscribedAt": "2026-10-01T11:05:50.432Z",
+      "active": true
+    },
+    {
+      "id": "sub-02",
+      "email": "alex.chen@gmail.com",
+      "subscribedAt": "2026-10-01T11:05:50.432Z",
+      "active": true
+    }
+  ],
+  "settings": {
+    "siteName": "HKSURYA LEARNING",
+    "tagline": "Learn Today. Build Tomorrow.",
+    "supportEmail": "admissions@hksuryalearning.com",
+    "admissionsPhone": "+1 (800) 457-8792",
+    "currency": "USD ($)",
+    "enrollmentsOpen": true,
+    "maintenanceMode": false,
+    "announcementBanner": "Fall 2026 Cohort Admissions Now Open · 45% Limited Early Bird Tuition Available"
+  }
+}
